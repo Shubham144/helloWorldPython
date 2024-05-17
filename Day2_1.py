@@ -1,4 +1,4 @@
-"""
+
 #LISTS
 food = "pizza"
 food_items = ["pizza", "burger", "hotdog", "pasta"]
@@ -20,8 +20,8 @@ print(food_items)
 drinks = ["mocktail", "juice", "coffee"]
 dessert = ["ice crean", "cake"]
 dinner = ["pizza", "hamburger", "pasta"]
-food = [drinks,dessert,dinner]
-print(food[1][1])
+food2 = [drinks,dessert,dinner]
+print(food2[1][1])
 
 #Tuple
 student_1 = ("Shubham", 25, "male", 150.3)
@@ -40,5 +40,3 @@ print(utensils.difference(dished))
 print(utensils.intersection(dished))
 for x in dinner_table:
     print(x)
-"""
-
